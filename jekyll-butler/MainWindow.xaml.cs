@@ -10,6 +10,7 @@ namespace jekyll_butler
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.NavigationService.Navigate(new SelectRoot());
         }
     }
 }

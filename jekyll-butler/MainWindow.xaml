@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:jekyll_butler"
         mc:Ignorable="d"
-        Title="Jekyll Butler" Height="350" Width="525">
+        Title="Jekyll Butler"
+        Height="350"
+        Width="525">
     <DockPanel>
         <Frame x:Name="MainFrame"></Frame>
     </DockPanel>
