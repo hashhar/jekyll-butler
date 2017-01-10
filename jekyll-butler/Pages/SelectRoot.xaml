@@ -9,7 +9,7 @@
       d:DesignHeight="300"
       d:DesignWidth="300"
       Title="SelectRoot">
-    <Grid>
+    <Grid Name="SelectRootGrid">
         <usercontrols:FolderPicker VerticalAlignment="Top"
                                    Text="{Binding Path=JekyllRoot}"
                                    Description="Base directory of Jekyll Website"
@@ -19,6 +19,7 @@
                 HorizontalAlignment="Right"
                 Padding="5"
                 VerticalAlignment="Bottom"
-                Margin="0,0,10,10" />
+                Margin="0,0,10,10"
+                Click="LoadJekyllRoot_Click" />
     </Grid>
 </Page>

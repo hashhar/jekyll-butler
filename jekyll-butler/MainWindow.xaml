@@ -9,6 +9,7 @@
         Height="350"
         Width="525">
     <DockPanel>
-        <Frame x:Name="MainFrame"></Frame>
+        <Frame x:Name="MainFrame"
+               NavigationUIVisibility="Hidden" />
     </DockPanel>
 </Window>
